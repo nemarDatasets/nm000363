@@ -1,5 +1,25 @@
 # Human medial temporal lobe single units during verbal working memory: spike data aligned to OpenNeuro ds004752
 
+## Companion to NEMAR on004752 (OpenNeuro ds004752): the single-unit data of the same 9 patients
+This dataset holds the **single-unit (microwire) data** for the **same 9 patients** whose scalp EEG and
+intracranial EEG are published as **NEMAR on004752**, a mirror of **OpenNeuro ds004752**. It does not
+repeat that EEG/iEEG.
+
+- NEMAR on004752: https://data.nemar.org/on004752/ (DOI https://doi.org/10.82901/nemar.on004752)
+- OpenNeuro ds004752, version 1.0.1: https://doi.org/10.18112/openneuro.ds004752.v1.0.1
+
+**Subject labels are identical.** `sub-01` to `sub-09` here are `sub-01` to `sub-09` of on004752 and
+ds004752, the same patients under the same labels. ds004752's `sciAdv_identifier` column (1–9) links them to
+"Subject 1"–"Subject 9" of the original NIX release and of Boran et al. 2019/2020. Patients `sub-10` to
+`sub-15` of ds004752 had no unit recordings in this release.
+
+**Session labels are identical.** `ses-01` to `ses-07` match the ds004752 sessions of the same subject trial
+by trial: the set size, probe letter and response time agree for every trial. The one exception is
+`sub-08/ses-05`: that NIX session exists only in the original release and has no ds004752 counterpart.
+
+**Trial numbers are identical.** `trial` here equals `nTrial` in the ds004752 `events.tsv`. A spike at
+`spike_time` falls at `onset(nTrial) + spike_time + 6 s` on the ds004752 recording.
+
 ## What this dataset is
 This is a **BIDS derivative** dataset with the **single-unit content** of the dataset by Boran et al.
 (G-Node GIN, doi:10.12751/g-node.d76994; Scientific Data 7:30, 2020, doi:10.1038/s41597-020-0364-3), re-keyed to the

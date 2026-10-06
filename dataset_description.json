@@ -27,9 +27,9 @@
     "https://doi.org/10.1038/s41597-020-0364-3",
     "https://doi.org/10.1126/sciadv.aav3687",
     "https://doi.org/10.12751/g-node.d76994",
-    "https://doi.org/10.18112/openneuro.ds004752.v1.0.1",
-    "https://doi.org/10.82901/nemar.on004752",
-    "https://github.com/jniediek/combinato"
+    "https://github.com/jniediek/combinato",
+    "https://data.nemar.org/on004752/",
+    "https://doi.org/10.18112/openneuro.ds004752.v1.0.1"
   ],
   "GeneratedBy": [
     {
@@ -45,19 +45,19 @@
   ],
   "SourceDatasets": [
     {
-      "DOI": "doi:10.12751/g-node.d76994",
-      "URL": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM",
-      "Version": "GIN DOI release (published 2019-12-04); repository master commit 0b27b34ecd0da217e4403bdd080b4a0d78f155fd"
+      "URL": "https://data.nemar.org/on004752/",
+      "DOI": "doi:10.82901/nemar.on004752",
+      "Version": "v1.0.0"
     },
     {
+      "URL": "https://doi.org/10.18112/openneuro.ds004752.v1.0.1",
       "DOI": "doi:10.18112/openneuro.ds004752.v1.0.1",
-      "URL": "https://openneuro.org/datasets/ds004752/versions/1.0.1",
       "Version": "1.0.1"
     },
     {
-      "DOI": "doi:10.82901/nemar.on004752",
-      "URL": "https://nemar.org/dataexplorer/detail?dataset_id=on004752",
-      "Version": "v1.0.0"
+      "URL": "https://doi.org/10.12751/g-node.d76994",
+      "DOI": "doi:10.12751/g-node.d76994",
+      "Version": "GIN DOI release (published 2019-12-04); repository master commit 0b27b34ecd0da217e4403bdd080b4a0d78f155fd"
     }
   ],
   "Keywords": [
