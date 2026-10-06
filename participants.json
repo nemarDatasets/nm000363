@@ -11,7 +11,11 @@
     "Units": "year"
   },
   "sex": {
-    "Description": "Sex as stored in the NIX Subject metadata"
+    "Description": "Sex as stored in the NIX Subject metadata (values \"Female\"/\"Male\" there), written as BIDS F/M (normalised 2026-10-06; no value changed in meaning).",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
   },
   "handedness": {
     "Description": "Handedness as stored in the NIX Subject metadata (confirmed by neuropsychological testing, Boran et al. 2020)."
