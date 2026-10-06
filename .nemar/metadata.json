@@ -1,15 +1,84 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Human medial temporal lobe single units during a verbal working memory task (Boran et al.): spike times and waveforms aligned to OpenNeuro ds004752",
+  "description": "Single-unit (microwire) recordings from the medial temporal lobe of nine patients with drug-resistant epilepsy performing a modified Sternberg verbal working memory task. The derivative provides 1526 sorted units and about 1.5 million spike times from hippocampus, entorhinal cortex and amygdala. It also includes mean and standard deviation waveforms, electrode and anatomical mapping, and trial tables. All of these are keyed to the subject and session labels of OpenNeuro ds004752 (NEMAR on004752) so the units can be combined with the scalp and intracranial EEG.",
+  "methods_description": "Depth electrodes with protruding microwires were recorded on a Neuralynx ATLAS system (microwires at 32 kHz). Spikes were detected and sorted with Combinato (wavelet features, superparamagnetic clustering) followed by visual curation and merging of similar clusters. Electrode locations were derived from post-implantation CT and MRI, normalized to MNI space and labelled with the Brainnetome atlas. Patients performed a modified Sternberg task with set sizes of 4, 6 or 8 letters.",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "derivative",
   "authors": {
-    "Ece Boran": {},
-    "Tommaso Fedele": {},
+    "Ece Boran": {
+      "orcid": "0000-0002-0395-7575",
+      "affiliations": [
+        {
+          "name": "Klinik für Neurochirurgie, UniversitätsSpital und Universität Zürich, 8091 Zürich, Switzerland"
+        }
+      ]
+    },
+    "Tommaso Fedele": {
+      "orcid": "0000-0001-7574-8062",
+      "affiliations": [
+        {
+          "name": "Klinik für Neurochirurgie, UniversitätsSpital und Universität Zürich, 8091 Zürich, Switzerland Zentrum für Neurowissenschaften Zürich, ETH Zürich, Zürich, Switzerland Institute for Cognitive Neuroscience, National Research University Higher School of Economics, Russian Federation"
+        }
+      ]
+    },
     "Adrian Steiner": {},
-    "Peter Hilfiker": {},
-    "Lennart Stieglitz": {},
+    "Peter Hilfiker": {
+      "orcid": "0000-0001-7729-4754",
+      "affiliations": [
+        {
+          "name": "Schweizerisches Epilepsie-Zentrum, 8008 Zürich, Switzerland"
+        }
+      ]
+    },
+    "Lennart Stieglitz": {
+      "orcid": "0000-0002-3744-5105"
+    },
     "Thomas Grunwald": {},
-    "Johannes Sarnthein": {}
+    "Johannes Sarnthein": {
+      "orcid": "0000-0001-9141-381X",
+      "affiliations": [
+        {
+          "name": "Klinik für Neurochirurgie, UniversitätsSpital Zürich, Universität Zürich"
+        }
+      ]
+    }
   },
+  "keywords": [
+    {
+      "term": "single units"
+    },
+    {
+      "term": "spike sorting"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "Entorhinal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018728"
+    },
+    {
+      "term": "Amygdala",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000679"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "intracranial EEG"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.12751/g-node.d76994",
@@ -62,50 +131,17 @@
       "award_number": "320030_176222"
     }
   ],
-  "title": "Human medial temporal lobe single units during a verbal working memory task (Boran et al.): spike times and waveforms aligned to OpenNeuro ds004752",
-  "license": "CC-BY-SA-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "formats": [
     ".json",
     ".md",
     ".py",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A BIDS derivative containing sorted single-unit activity from the human medial temporal lobe (hippocampus, entorhinal cortex, amygdala) recorded with microwires during a modified Sternberg verbal working memory task. It provides 1526 units and over 1.5 million trial-aligned spike times, mean and standard deviation waveforms, unit-to-electrode and anatomical mapping, and trial properties. The data come from nine epilepsy patients and are keyed to the subject and session labels of OpenNeuro ds004752 so they can be combined with that dataset's scalp EEG and iEEG.",
-  "methods_description": "Patients with drug-resistant focal epilepsy were implanted with AdTech depth electrodes with microwires. Microwires were recorded at 32 kHz with a Neuralynx ATLAS system. Spikes were detected and sorted with Combinato (wavelet features, superparamagnetic clustering), followed by visual curation and merging of similar clusters. Electrode locations were derived from post-implantation CT and MRI, normalized to MNI space and labelled with the Brainnetome atlas.",
-  "keywords": [
-    {
-      "term": "single-unit recording"
-    },
-    {
-      "term": "spike sorting"
-    },
-    {
-      "term": "medial temporal lobe"
-    },
-    {
-      "term": "Hippocampus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
-    },
-    {
-      "term": "Memory, Short-Term",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "intracranial EEG"
-    }
-  ],
-  "source_hash": "04dd056045b3a284644341d18ec141d1adae792eba1c8c4cf77f9362acba7e01"
+  "source_hash": "c956c5cd8cc27e548848d670ad99c81febbc74b08b069ad7b4b1db96db3281fd"
 }
