@@ -1,0 +1,17 @@
+unit_id	microwire	macro_contact	anatomical_location	macro_contact_mni_x	macro_contact_mni_y	macro_contact_mni_z	macro_label_manual_entry	n_spikes	n_trials_with_spike_array	nix_waveform_array
+1	uAHL8	mAHL1	Hipp, Left Hippocampus rHipp, rostral hippocampus	-25.766453316181	-10.8898109754406	-22.3589170997329	False	322	47	Spike_Waveform_Unit_1_uAHL_8
+2	uAHR2	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	5012	47	Spike_Waveform_Unit_2_uAHR_2
+3	uAHR2	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	548	47	Spike_Waveform_Unit_3_uAHR_2
+4	uAHR2	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	437	47	Spike_Waveform_Unit_4_uAHR_2
+5	uAHR3	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	2038	47	Spike_Waveform_Unit_5_uAHR_3
+6	uAHR3	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	868	47	Spike_Waveform_Unit_6_uAHR_3
+7	uAHR3	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	892	47	Spike_Waveform_Unit_7_uAHR_3
+8	uAHR4	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	931	47	Spike_Waveform_Unit_8_uAHR_4
+9	uAHR4	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	1289	47	Spike_Waveform_Unit_9_uAHR_4
+10	uAHR4	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	963	47	Spike_Waveform_Unit_10_uAHR_4
+11	uAHR4	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	461	47	Spike_Waveform_Unit_11_uAHR_4
+12	uAHR6	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	453	47	Spike_Waveform_Unit_12_uAHR_6
+13	uAHR6	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	543	47	Spike_Waveform_Unit_13_uAHR_6
+14	uAHR7	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	1257	47	Spike_Waveform_Unit_14_uAHR_7
+15	uAHR7	mAHR1	Hipp, Right Hippocampus rHipp, rostral hippocampus	25.8057301352321	-11.0824292494798	-21.0158790443492	False	743	47	Spike_Waveform_Unit_15_uAHR_7
+16	uAL5	mAL1	Amyg, Left Amygdala mAmyg, medial amygdala	-24.8816270253862	0.481477075149126	-21.8042498790169	False	467	47	Spike_Waveform_Unit_16_uAL_5

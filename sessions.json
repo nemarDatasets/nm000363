@@ -1,0 +1,24 @@
+{
+  "Description": "One row per NIX session file of the subject, with its checksum, trial/unit/spike counts and the matching ds004752 session.",
+  "session_id": {
+    "Description": "Session label; ses-01..ses-07 equal the ds004752 labels. sub-08 ses-05 is NIX Session_05, which has no counterpart in ds004752."
+  },
+  "nix_source_file": {
+    "Description": "Source NIX file in the GIN release (data_nix/)."
+  },
+  "nix_source_sha256": {
+    "Description": "SHA-256 of the source NIX file as downloaded and verified against the GIN git-annex MD5 key."
+  },
+  "n_trials": {
+    "Description": "Number of trials in the NIX session."
+  },
+  "n_units": {
+    "Description": "Number of sorted units in the session (0 = no microwire units in the source file)."
+  },
+  "n_spikes": {
+    "Description": "Total number of spike times in the session."
+  },
+  "ds004752_session": {
+    "Description": "ds004752 session whose events.tsv matches this NIX session trial-by-trial (set size, probe letter, response time identical for every trial); n/a if none."
+  }
+}

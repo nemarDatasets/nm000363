@@ -1,0 +1,7 @@
+unit_id	microwire	macro_contact	anatomical_location	macro_contact_mni_x	macro_contact_mni_y	macro_contact_mni_z	macro_label_manual_entry	n_spikes	n_trials_with_spike_array	nix_waveform_array
+1	uAL5	mAL1	Hipp, Left Hippocampus rHipp, rostral hippocampus	-25.4334136907457	-7.46718898909409	-22.648471503369	False	378	50	Spike_Waveform_Unit_1_uAL_5
+2	uAL7	mAL1	Hipp, Left Hippocampus rHipp, rostral hippocampus	-25.4334136907457	-7.46718898909409	-22.648471503369	False	369	50	Spike_Waveform_Unit_2_uAL_7
+3	uAL7	mAL1	Hipp, Left Hippocampus rHipp, rostral hippocampus	-25.4334136907457	-7.46718898909409	-22.648471503369	False	552	50	Spike_Waveform_Unit_3_uAL_7
+4	uAL7	mAL1	Hipp, Left Hippocampus rHipp, rostral hippocampus	-25.4334136907457	-7.46718898909409	-22.648471503369	False	980	50	Spike_Waveform_Unit_4_uAL_7
+5	uAL8	mAL1	Hipp, Left Hippocampus rHipp, rostral hippocampus	-25.4334136907457	-7.46718898909409	-22.648471503369	False	200	50	Spike_Waveform_Unit_5_uAL_8
+6	uAL8	mAL1	Hipp, Left Hippocampus rHipp, rostral hippocampus	-25.4334136907457	-7.46718898909409	-22.648471503369	False	261	50	Spike_Waveform_Unit_6_uAL_8

@@ -1,0 +1,3 @@
+session_id	nix_source_file	nix_source_sha256	n_trials	n_units	n_spikes	ds004752_session
+ses-01	Data_Subject_09_Session_01.h5	c902afe026d54c55c5d8f14c9020b46263d498c3aa4417bb5dce15fc17373857	48	60	65418	ses-01
+ses-02	Data_Subject_09_Session_02.h5	db6cfb10398516d59ba37da0fa0a16eda827d77264052ae65580f2a2930cb5f8	49	61	70695	ses-02

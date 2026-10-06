@@ -1,0 +1,83 @@
+unit_id	microwire	macro_contact	anatomical_location	macro_contact_mni_x	macro_contact_mni_y	macro_contact_mni_z	macro_label_manual_entry	n_spikes	n_trials_with_spike_array	nix_waveform_array
+1	uAHL2	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	394	47	Spike_Waveform_Unit_1_uAHL_2
+2	uAHL2	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	457	47	Spike_Waveform_Unit_2_uAHL_2
+3	uAHL3	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	985	47	Spike_Waveform_Unit_3_uAHL_3
+4	uAHL4	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	1038	47	Spike_Waveform_Unit_4_uAHL_4
+5	uAHL4	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	1333	47	Spike_Waveform_Unit_5_uAHL_4
+6	uAHL4	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	406	47	Spike_Waveform_Unit_6_uAHL_4
+7	uAHL7	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	4085	47	Spike_Waveform_Unit_7_uAHL_7
+8	uAHL7	mAHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-34.2159816382967	-11.6028852123788	-23.5383558886163	False	1160	47	Spike_Waveform_Unit_8_uAHL_7
+9	uAHR4	mAHR1	FuG, Right Fusiform Gyrus A20rv, rostroventral area 20	34.1669708876508	-12.2546967844344	-30.1340232710777	False	378	47	Spike_Waveform_Unit_9_uAHR_4
+10	uAHR8	mAHR1	FuG, Right Fusiform Gyrus A20rv, rostroventral area 20	34.1669708876508	-12.2546967844344	-30.1340232710777	False	557	47	Spike_Waveform_Unit_10_uAHR_8
+11	uAL1	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	480	47	Spike_Waveform_Unit_11_uAL_1
+12	uAL1	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	941	47	Spike_Waveform_Unit_12_uAL_1
+13	uAL2	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	1622	47	Spike_Waveform_Unit_13_uAL_2
+14	uAL4	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	760	47	Spike_Waveform_Unit_14_uAL_4
+15	uAL5	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	409	47	Spike_Waveform_Unit_15_uAL_5
+16	uAL5	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	236	47	Spike_Waveform_Unit_16_uAL_5
+17	uAL6	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	1418	47	Spike_Waveform_Unit_17_uAL_6
+18	uAL6	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	113	47	Spike_Waveform_Unit_18_uAL_6
+19	uAL7	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	892	47	Spike_Waveform_Unit_19_uAL_7
+20	uAL7	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	826	47	Spike_Waveform_Unit_20_uAL_7
+21	uAL8	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	2772	47	Spike_Waveform_Unit_21_uAL_8
+22	uAL8	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	235	47	Spike_Waveform_Unit_22_uAL_8
+23	uAR1	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	468	47	Spike_Waveform_Unit_23_uAR_1
+24	uAR1	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	258	47	Spike_Waveform_Unit_24_uAR_1
+25	uAR2	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	757	47	Spike_Waveform_Unit_25_uAR_2
+26	uAR2	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	388	47	Spike_Waveform_Unit_26_uAR_2
+27	uAR3	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	1503	47	Spike_Waveform_Unit_27_uAR_3
+28	uAR3	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	249	47	Spike_Waveform_Unit_28_uAR_3
+29	uAR3	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	260	47	Spike_Waveform_Unit_29_uAR_3
+30	uAR4	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	320	47	Spike_Waveform_Unit_30_uAR_4
+31	uAR5	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	357	47	Spike_Waveform_Unit_31_uAR_5
+32	uAR5	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	318	47	Spike_Waveform_Unit_32_uAR_5
+33	uAR6	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	1205	47	Spike_Waveform_Unit_33_uAR_6
+34	uAR6	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	905	47	Spike_Waveform_Unit_34_uAR_6
+35	uAR6	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	1160	47	Spike_Waveform_Unit_35_uAR_6
+36	uAR7	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	1039	47	Spike_Waveform_Unit_36_uAR_7
+37	uAR7	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	308	47	Spike_Waveform_Unit_37_uAR_7
+38	uAR8	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	1385	47	Spike_Waveform_Unit_38_uAR_8
+39	uAR8	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	3429	47	Spike_Waveform_Unit_39_uAR_8
+40	uAR8	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	1415	47	Spike_Waveform_Unit_40_uAR_8
+41	uECL7	mECL1	PhG, Left Parahippocampal Gyrus A35-36r, rostral area 35-36	-27.8575368594359	-0.257136393813158	-32.404319522122	False	581	47	Spike_Waveform_Unit_41_uECL_7
+42	uECR1	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	3987	47	Spike_Waveform_Unit_42_uECR_1
+43	uECR1	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	417	47	Spike_Waveform_Unit_43_uECR_1
+44	uECR2	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	3096	47	Spike_Waveform_Unit_44_uECR_2
+45	uECR2	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	270	47	Spike_Waveform_Unit_45_uECR_2
+46	uECR2	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1255	47	Spike_Waveform_Unit_46_uECR_2
+47	uECR3	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	796	47	Spike_Waveform_Unit_47_uECR_3
+48	uECR3	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	398	47	Spike_Waveform_Unit_48_uECR_3
+49	uECR4	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	5071	47	Spike_Waveform_Unit_49_uECR_4
+50	uECR4	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1292	47	Spike_Waveform_Unit_50_uECR_4
+51	uECR5	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1240	47	Spike_Waveform_Unit_51_uECR_5
+52	uECR5	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1122	47	Spike_Waveform_Unit_52_uECR_5
+53	uECR5	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1283	47	Spike_Waveform_Unit_53_uECR_5
+54	uECR6	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	2684	47	Spike_Waveform_Unit_54_uECR_6
+55	uECR6	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	924	47	Spike_Waveform_Unit_55_uECR_6
+56	uECR6	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1054	47	Spike_Waveform_Unit_56_uECR_6
+57	uECR7	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1487	47	Spike_Waveform_Unit_57_uECR_7
+58	uECR7	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	325	47	Spike_Waveform_Unit_58_uECR_7
+59	uECR8	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	1342	47	Spike_Waveform_Unit_59_uECR_8
+60	uECR8	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	2260	47	Spike_Waveform_Unit_60_uECR_8
+61	uECR8	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	473	47	Spike_Waveform_Unit_61_uECR_8
+62	uECR8	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	412	47	Spike_Waveform_Unit_62_uECR_8
+63	uPHL5	mPHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-35.9552995677195	-23.2879997458985	-16.8805844719109	False	3384	47	Spike_Waveform_Unit_63_uPHL_5
+64	uPHL5	mPHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-35.9552995677195	-23.2879997458985	-16.8805844719109	False	360	47	Spike_Waveform_Unit_64_uPHL_5
+65	uPHL5	mPHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-35.9552995677195	-23.2879997458985	-16.8805844719109	False	384	47	Spike_Waveform_Unit_65_uPHL_5
+66	uPHL7	mPHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-35.9552995677195	-23.2879997458985	-16.8805844719109	False	254	47	Spike_Waveform_Unit_66_uPHL_7
+67	uPHL7	mPHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-35.9552995677195	-23.2879997458985	-16.8805844719109	False	235	47	Spike_Waveform_Unit_67_uPHL_7
+68	uPHL7	mPHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-35.9552995677195	-23.2879997458985	-16.8805844719109	False	621	47	Spike_Waveform_Unit_68_uPHL_7
+69	uPHR1	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	627	47	Spike_Waveform_Unit_69_uPHR_1
+70	uPHR1	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	408	47	Spike_Waveform_Unit_70_uPHR_1
+71	uPHR1	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	553	47	Spike_Waveform_Unit_71_uPHR_1
+72	uPHR5	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	848	47	Spike_Waveform_Unit_72_uPHR_5
+73	uAL1	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	269	47	Spike_Waveform_Unit_73_uAL_1
+74	uAL1	mAL1	Amyg, Left Amygdala lAmyg, lateral amygdala	-30.1467443737423	-2.5651747500803	-18.8190488516133	False	261	47	Spike_Waveform_Unit_74_uAL_1
+75	uAR8	mAR1	Amyg, Right Amygdala mAmyg, medial amygdala	23.8667986672363	-1.79995700486807	-21.1298541131976	False	2397	47	Spike_Waveform_Unit_75_uAR_8
+76	uECR1	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	453	47	Spike_Waveform_Unit_76_uECR_1
+77	uECR1	mECR1	PhG, Right Parahippocampal Gyrus A35-36r, rostral area 35-36	26.9231569988248	-2.62925155322826	-35.0042677549266	False	275	47	Spike_Waveform_Unit_77_uECR_1
+78	uPHL5	mPHL1	Hipp, Left Hippocampus cHipp, caudal hippocampus	-35.9552995677195	-23.2879997458985	-16.8805844719109	False	404	47	Spike_Waveform_Unit_78_uPHL_5
+79	uPHR1	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	567	47	Spike_Waveform_Unit_79_uPHR_1
+80	uPHR1	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	386	47	Spike_Waveform_Unit_80_uPHR_1
+81	uPHR1	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	243	47	Spike_Waveform_Unit_81_uPHR_1
+82	uPHR6	mPHR1	Hipp, Right Hippocampus cHipp, caudal hippocampus	32.4463022400774	-20.9724335237064	-19.6358369152082	False	793	47	Spike_Waveform_Unit_82_uPHR_6

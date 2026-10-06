@@ -1,0 +1,28 @@
+{
+  "Description": "Participants of the Boran et al. NIX release (nine subjects), labelled as in OpenNeuro ds004752; values from the NIX Subject metadata.",
+  "participant_id": {
+    "Description": "Subject label, identical to OpenNeuro ds004752 / NEMAR on004752."
+  },
+  "sciAdv_identifier": {
+    "Description": "Subject number in the NIX release and in Boran et al. 2019 (Sci Adv) / 2020 (Sci Data); crosswalk taken from ds004752 participants.tsv."
+  },
+  "age": {
+    "Description": "Age as stored in the NIX Subject metadata",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Sex as stored in the NIX Subject metadata"
+  },
+  "handedness": {
+    "Description": "Handedness as stored in the NIX Subject metadata (confirmed by neuropsychological testing, Boran et al. 2020)."
+  },
+  "pathology": {
+    "Description": "Pathology as stored in the NIX Subject metadata"
+  },
+  "depth_electrodes": {
+    "Description": "Depth electrodes implanted (NIX 'Depth electrodes'); A=amygdala, AH=anterior hippocampus, PH=posterior hippocampus, EC=entorhinal cortex, LR/DR=other, suffix L/R=hemisphere."
+  },
+  "soz_electrodes": {
+    "Description": "Depth electrodes in the seizure onset zone (NIX 'Electrodes in seizure onset zone (SOZ)')."
+  }
+}

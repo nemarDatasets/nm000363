@@ -1,0 +1,11 @@
+# Unit-level files have no BIDS suffix yet (microelectrode spike data are not in BIDS 1.10); documented in README.
+*_units.tsv
+*_units.json
+*_spikes.tsv
+*_spikes.json
+*_waveforms.tsv
+*_waveforms.json
+*_trials.tsv
+*_trials.json
+*_trialevents.tsv
+*_trialevents.json

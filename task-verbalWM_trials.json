@@ -1,0 +1,40 @@
+{
+  "Description": "Per-trial task properties from the NIX metadata section Session/Trial properties.",
+  "trial": {
+    "Description": "Trial number (1-based); equals nTrial in ds004752 events.tsv."
+  },
+  "set_size": {
+    "Description": "Number of letters to memorize (4, 6 or 8)."
+  },
+  "probe_letter": {
+    "Description": "Probe letter shown at retrieval."
+  },
+  "match": {
+    "Description": "Probe membership as coded in the NIX source",
+    "Levels": {
+      "1": "IN (probe was in the memory set)",
+      "2": "OUT (probe was not in the memory set)"
+    }
+  },
+  "correct": {
+    "Description": "Response correctness as coded in the NIX source",
+    "Levels": {
+      "1": "correct",
+      "0": "incorrect"
+    }
+  },
+  "response": {
+    "Description": "Button code of the response as stored in the NIX source (raw value, not interpreted)."
+  },
+  "response_time": {
+    "Description": "Response time from probe onset",
+    "Units": "s"
+  },
+  "artifact": {
+    "Description": "NIX Artifact flag for the trial",
+    "Levels": {
+      "1": "trial marked as artifact by the authors",
+      "0": "no artifact flag"
+    }
+  }
+}

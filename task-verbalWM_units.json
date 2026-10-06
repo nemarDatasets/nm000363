@@ -1,0 +1,38 @@
+{
+  "unit_id": {
+    "Description": "Unit number as used in the NIX source file names (Spike_Waveform_Unit_<unit_id>_...). Unit numbers are defined per session file; the same number in two sessions does not imply the same neuron."
+  },
+  "microwire": {
+    "Description": "Behnke-Fried style microwire on which the unit was recorded, as named in the NIX source (u<electrode><index>, e.g. uAHL2 = microwire 2 of depth electrode AHL)."
+  },
+  "macro_contact": {
+    "Description": "Deepest macro contact of the same depth electrode (m<electrode>1), the NIX source linked to the unit; label as in ds004752 electrodes.tsv."
+  },
+  "anatomical_location": {
+    "Description": "Anatomical label of the macro contact from the NIX source (Brainnetome atlas, manually entered when the atlas gave no MTL label, see macro_label_manual_entry)."
+  },
+  "macro_contact_mni_x": {
+    "Description": "MNI x coordinate of macro_contact from the NIX source (iEEG_Electrode_MNI_Coordinates)",
+    "Units": "mm"
+  },
+  "macro_contact_mni_y": {
+    "Description": "MNI y coordinate of macro_contact from the NIX source",
+    "Units": "mm"
+  },
+  "macro_contact_mni_z": {
+    "Description": "MNI z coordinate of macro_contact from the NIX source",
+    "Units": "mm"
+  },
+  "macro_label_manual_entry": {
+    "Description": "NIX iEEG_Electrode_Manual_Entry flag: True if the anatomical label was entered manually by the authors."
+  },
+  "n_spikes": {
+    "Description": "Number of spike times of this unit across all trials of the session (count of rows in _spikes.tsv)."
+  },
+  "n_trials_with_spike_array": {
+    "Description": "Number of trials for which the NIX file holds a spike-time array for this unit (arrays may be empty)."
+  },
+  "nix_waveform_array": {
+    "Description": "Name of the NIX data array holding the waveform (provenance)."
+  }
+}

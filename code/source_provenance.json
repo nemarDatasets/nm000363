@@ -1,0 +1,1691 @@
+{
+  "source": "G-Node GIN doi:10.12751/g-node.d76994 (USZ_NCH/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM, master 0b27b34ecd0da217e4403bdd080b4a0d78f155fd)",
+  "note": "The NIX files also contain the scalp EEG and iEEG time series, which are published as OpenNeuro ds004752; to avoid duplicating that archive they are not included here. Obtain the NIX files from the DOI above.",
+  "acquisition_receipt": {
+    "complete": true,
+    "files": [
+      {
+        "path": "sourcedata/repo/README.md",
+        "size": 4577,
+        "checksums": {
+          "sha256": "e3375798891e2444c61db0b0bd5616ad5a62f6828691e7d97ca711ff2f81ddd1",
+          "md5": "b1b7efa7ca0dbd6ba3a5716257e2b332"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/README.md",
+        "verified_at_unix": 1791285146.6123993
+      },
+      {
+        "path": "sourcedata/repo/datacite.yml",
+        "size": 4645,
+        "checksums": {
+          "sha256": "a7a78f013b5d5832f6fe321017f0e7d7d3c3f01ec3018c71a574a7baf50a6927",
+          "md5": "e8efe3378e34371c2dd541389ac8be66"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/datacite.yml",
+        "verified_at_unix": 1791285146.6348581
+      },
+      {
+        "path": "sourcedata/repo/LICENSE",
+        "size": 14442,
+        "checksums": {
+          "sha256": "4fb9ea6c63f9a441416ba4110e111be34b4b0e3fcda5b39387e1f288705f31d0",
+          "md5": "839359b808983e735da58eaa25f4776e"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/LICENSE",
+        "verified_at_unix": 1791285146.6510785
+      },
+      {
+        "path": "sourcedata/repo/Subject_Characteristics.pdf",
+        "size": 6505,
+        "checksums": {
+          "sha256": "60d2dec69b7ad8aa4440a9d11bd4b80319ec93eb04e87284f66a6f2db1886381",
+          "md5": "f3ecf07fa01ab717f72af0079179a567"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/Subject_Characteristics.pdf",
+        "verified_at_unix": 1791285146.6670682
+      },
+      {
+        "path": "sourcedata/repo/NIX_File_Structure.pdf",
+        "size": 15759,
+        "checksums": {
+          "sha256": "aab82f0c67e0dff461fb115b57d0721d7d4f8cd72f7eee7aee3f501393bc6c75",
+          "md5": "b555903a7c040fac0c7599e75e1757e6"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/NIX_File_Structure.pdf",
+        "verified_at_unix": 1791285146.6947384
+      },
+      {
+        "path": "sourcedata/repo/code_MATLAB/Load_Data_Example_Script.m",
+        "size": 9157,
+        "checksums": {
+          "sha256": "ee85c9be9d7893cfcf59e7acce332ae67c0468d1591818367035553d3d050c87",
+          "md5": "3229cdb1e7fb8c26dab495f9231940b5"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/code_MATLAB/Load_Data_Example_Script.m",
+        "verified_at_unix": 1791285146.7479331
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_06_Session_06.h5",
+        "size": 446740355,
+        "checksums": {
+          "sha256": "d1aae765c57fa4ae2feaeb73c28b4160bc608d94680c8f176b46c906990eb579",
+          "md5": "2aa0b3993f7a206ba950e67d895e58d3"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_06_Session_06.h5",
+        "verified_at_unix": 1791285157.9787583
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_01_Session_01.h5",
+        "size": 410499073,
+        "checksums": {
+          "sha256": "625c36b87b9558ac7d5ed64f1d3e6fd6f3fe39ede3358e86bb5007f858ee0e92",
+          "md5": "c43a9696fc48bb8a477135a53105e9d2"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_01_Session_01.h5",
+        "verified_at_unix": 1791285162.6448228
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_06_Session_03.h5",
+        "size": 498871030,
+        "checksums": {
+          "sha256": "eed82203e249396e821c6eb380c853bc054ff82d2bd0529ff19912c90ac66b7a",
+          "md5": "3b2a34e9b2165d0d161318bd80abc5fa"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_06_Session_03.h5",
+        "verified_at_unix": 1791285166.881569
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_06_Session_04.h5",
+        "size": 446740947,
+        "checksums": {
+          "sha256": "d7eb827aa0e02a04103e0dc38482d89b1667a05694cb3d971f8dfbf730526951",
+          "md5": "44a07c4aa3966c9e75e4ce4fad7faeba"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_06_Session_04.h5",
+        "verified_at_unix": 1791285169.5401375
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_03_Session_02.h5",
+        "size": 322784157,
+        "checksums": {
+          "sha256": "9d5afa6f1a97ab21878c5737509e3a5d162a9491e10262236e5bbef238a34a01",
+          "md5": "79042fed31dd8e9998484907a51c89c4"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_03_Session_02.h5",
+        "verified_at_unix": 1791285171.764219
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_06_Session_07.h5",
+        "size": 446741419,
+        "checksums": {
+          "sha256": "6301b2baa87573fdf7bdc9f94997134f9b892164d842f1281ca493cae2d99f3f",
+          "md5": "ab3b646af2f2bcdc4fafb9a5930e0981"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_06_Session_07.h5",
+        "verified_at_unix": 1791285174.2534869
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_09_Session_01.h5",
+        "size": 521116846,
+        "checksums": {
+          "sha256": "c902afe026d54c55c5d8f14c9020b46263d498c3aa4417bb5dce15fc17373857",
+          "md5": "83272596bcaea35e21a0512c5281bb88"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_09_Session_01.h5",
+        "verified_at_unix": 1791285178.8731422
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_04_Session_01.h5",
+        "size": 660963000,
+        "checksums": {
+          "sha256": "33207f2a0c981e63c9b265a3b483d588d2ac1744d626c82203a6152c2cf8551a",
+          "md5": "4fe7dee31981c02f8d4ae96a2975d88b"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_04_Session_01.h5",
+        "verified_at_unix": 1791285186.4152448
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_07_Session_01.h5",
+        "size": 436560878,
+        "checksums": {
+          "sha256": "d97b1f8d8a1b1bae0908a3946af97ebc643a21177b3fb14ac0a4d9be71095a00",
+          "md5": "39c3d8caa58444bfd20fed3e2cf66730"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_07_Session_01.h5",
+        "verified_at_unix": 1791285190.2596052
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_03_Session_01.h5",
+        "size": 296073321,
+        "checksums": {
+          "sha256": "d7b011d5f24aaf11db60e8a984ea323dbc72ee17b0d5679da6601989838af2b5",
+          "md5": "67b744a6095991472062b1de0922824b"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_03_Session_01.h5",
+        "verified_at_unix": 1791285192.1033845
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_08_Session_04.h5",
+        "size": 569544702,
+        "checksums": {
+          "sha256": "b83b43b7238287b7294802a8079f4d7564088049141108f70eb5d2e7d80b0e78",
+          "md5": "6b4da18a7ef5e3501113f349f2e91bbc"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_08_Session_04.h5",
+        "verified_at_unix": 1791285197.0447335
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_08_Session_02.h5",
+        "size": 557623416,
+        "checksums": {
+          "sha256": "9d0e6619bf7db351304e0f97eabd7ed2f3d53efde48e37659e4345256456a9c4",
+          "md5": "7203c5835dafa02d69534abc51e1ffdb"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_08_Session_02.h5",
+        "verified_at_unix": 1791285201.0892103
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_01_Session_04.h5",
+        "size": 350691300,
+        "checksums": {
+          "sha256": "a9f81b50a6d3bf8af1bd9c4b7d1a7714f83251cf6460a52c8e4bea1db2fb6302",
+          "md5": "08b316be67e3dd42c9c3459956589b9d"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_01_Session_04.h5",
+        "verified_at_unix": 1791285203.261784
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_02_Session_02.h5",
+        "size": 543058297,
+        "checksums": {
+          "sha256": "e2d5db8efca44d29ac72cc7b14ff28475521600a3b82a69be2f12e1136e62f8e",
+          "md5": "eb6a745cc368d1f925562af88761ed46"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_02_Session_02.h5",
+        "verified_at_unix": 1791285207.002235
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_03_Session_03.h5",
+        "size": 325530310,
+        "checksums": {
+          "sha256": "f8266dab98b225a8fcf3f188a16cad8b4f650100e67593ce1e871a205b897271",
+          "md5": "33288de74cf3e99aa69d5a0f864dd3ad"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_03_Session_03.h5",
+        "verified_at_unix": 1791285210.7788548
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_05_Session_02.h5",
+        "size": 261382061,
+        "checksums": {
+          "sha256": "e9c5524e3ef782915083db2864e92725321dd5c4ef38229d823187e607f6b3e5",
+          "md5": "ee68dc5a81d3bfd1ce07bddd174a1a5b"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_05_Session_02.h5",
+        "verified_at_unix": 1791285212.8472922
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_01_Session_03.h5",
+        "size": 350691220,
+        "checksums": {
+          "sha256": "07ba969f32d560b907bc3a8f2dc701676f83687cc515facf5058365977d2adc8",
+          "md5": "8db0b372689d5eb7ef2d5c69baa4f08d"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_01_Session_03.h5",
+        "verified_at_unix": 1791285215.0107987
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_06_Session_01.h5",
+        "size": 505929755,
+        "checksums": {
+          "sha256": "4db8348b7ef7c6e9d236617fc50cef427ce26288f1656e3721349a4bb561e975",
+          "md5": "bd69c3427e34ccecdebd35ca0182e888"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_06_Session_01.h5",
+        "verified_at_unix": 1791285220.1283295
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_07_Session_03.h5",
+        "size": 537733002,
+        "checksums": {
+          "sha256": "038071bbc9acad4e70c9f38d85e60192bd5e81cd17f964010e672a8b31fa55a3",
+          "md5": "ee45fed6be09bd8aaa23618480aa064c"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_07_Session_03.h5",
+        "verified_at_unix": 1791285223.8521457
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_05_Session_01.h5",
+        "size": 262917168,
+        "checksums": {
+          "sha256": "86a41715b2fae8d55473c8de2a65b10d54f9d250b9e16c5a3e90a38ac4973ca2",
+          "md5": "c023718dc1cc1de537d4767410ca24b3"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_05_Session_01.h5",
+        "verified_at_unix": 1791285225.7084599
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_08_Session_01.h5",
+        "size": 583108837,
+        "checksums": {
+          "sha256": "4d38576782c31995610904d35ae5fd55dc49e28f6e2b5da44e8ed8d54b68b21a",
+          "md5": "f355148580958d1603b651b2a701910d"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_08_Session_01.h5",
+        "verified_at_unix": 1791285230.9460464
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_09_Session_02.h5",
+        "size": 533291779,
+        "checksums": {
+          "sha256": "db6cfb10398516d59ba37da0fa0a16eda827d77264052ae65580f2a2930cb5f8",
+          "md5": "e2d588f0da76545eaabb347425dd45d8"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_09_Session_02.h5",
+        "verified_at_unix": 1791285234.408042
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_02_Session_07.h5",
+        "size": 461134282,
+        "checksums": {
+          "sha256": "2e4f2583e629edd0fccef333b3bf6441db3a685a2a29f9b01907c83ae5369871",
+          "md5": "f1cf10a89f0c2db778aa6d6d77da6e47"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_02_Session_07.h5",
+        "verified_at_unix": 1791285238.2334564
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_07_Session_02.h5",
+        "size": 558641399,
+        "checksums": {
+          "sha256": "5d9fd92b18f6c54f3bc478909c6ba1a01342b21fc1954c2a714840b38ab7f849",
+          "md5": "079b4d67439a2f6419247fff0fb75411"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_07_Session_02.h5",
+        "verified_at_unix": 1791285243.4470084
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_08_Session_03.h5",
+        "size": 559045051,
+        "checksums": {
+          "sha256": "2064259537fd9f4765fe820d30001a0e208f8024d1ad037642f13d1e61fbe6bc",
+          "md5": "9119fa7e885b47415296b849c46ffd3b"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_08_Session_03.h5",
+        "verified_at_unix": 1791285247.6263819
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_02_Session_06.h5",
+        "size": 466230060,
+        "checksums": {
+          "sha256": "280fe9623dc44ea1717be546efb27fd5f7527419d497a4efdb9cd1781caf1869",
+          "md5": "0fbacc0b4d175f8ad3aabd9254b3bb61"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_02_Session_06.h5",
+        "verified_at_unix": 1791285251.7547886
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_02_Session_01.h5",
+        "size": 549350502,
+        "checksums": {
+          "sha256": "65789f65d32dc57a124dc034b890f2e46687c3d182765ed23c341f0297b2bef2",
+          "md5": "62c00a6a966c40b63e580fe5c15319e9"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_02_Session_01.h5",
+        "verified_at_unix": 1791285256.2811625
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_02_Session_04.h5",
+        "size": 506955128,
+        "checksums": {
+          "sha256": "79d061abc2b30ebab44a2496516ca8cc25cf55cb557b4179124451087c0304d1",
+          "md5": "3b776852042394bb677f47e207a4d1d9"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_02_Session_04.h5",
+        "verified_at_unix": 1791285261.6957135
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_02_Session_05.h5",
+        "size": 432983632,
+        "checksums": {
+          "sha256": "7382c7f99dd767c93ba8809800d1d3c493682a81763cd36426c6b648b5406598",
+          "md5": "4f8829ae132d3b70ccfda49985123255"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_02_Session_05.h5",
+        "verified_at_unix": 1791285265.4401422
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_01_Session_02.h5",
+        "size": 400978077,
+        "checksums": {
+          "sha256": "b8c87c9fd0ed8c2ede11b5a363b3e6f408b59d90e5de3f7a6b1e34ce0d03f3d9",
+          "md5": "7a12649692601229791e80203318dec4"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_01_Session_02.h5",
+        "verified_at_unix": 1791285268.2701895
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_05_Session_03.h5",
+        "size": 259083131,
+        "checksums": {
+          "sha256": "6b1b18c90c8f4a8a5af00d8572c623e5f916a1ae131a7dd3dde4b435b62c3aa6",
+          "md5": "703662aa1ddd2bd197e39535cc115d57"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_05_Session_03.h5",
+        "verified_at_unix": 1791285270.0890827
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_06_Session_02.h5",
+        "size": 510372818,
+        "checksums": {
+          "sha256": "c666442aea5b64f812bf5f544b41a9f3e2298c2ddc2169961908918aebd90594",
+          "md5": "636db22970799d64de0b0f30744cd312"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_06_Session_02.h5",
+        "verified_at_unix": 1791285273.8890967
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_06_Session_05.h5",
+        "size": 446740907,
+        "checksums": {
+          "sha256": "bac1d40c0da32ddb3d4450e278fff0120c1701000fe823e374b919a4b6dc31f7",
+          "md5": "c2dba676dec1f2e6b7ef6f445a8db790"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_06_Session_05.h5",
+        "verified_at_unix": 1791285277.4541986
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_07_Session_04.h5",
+        "size": 523039960,
+        "checksums": {
+          "sha256": "c63e97e1d3c8076bd0bfe483f58539ed67faa76fab014911514b97e24d114538",
+          "md5": "7b48ccc577969779c04bff5d51e51f11"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_07_Session_04.h5",
+        "verified_at_unix": 1791285281.729081
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_02_Session_03.h5",
+        "size": 512607442,
+        "checksums": {
+          "sha256": "a82a9e7adda779a5e4b286b48430cf8f20f72498e4c21800cde5c80e85724280",
+          "md5": "01609075d7696ca70d9ebb45adb15781"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_02_Session_03.h5",
+        "verified_at_unix": 1791285285.555536
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_04_Session_02.h5",
+        "size": 668238184,
+        "checksums": {
+          "sha256": "87899921b72cc03e9e5f3af98568f9bf5dc5cebcf6ba0def415b8b4b0e077be3",
+          "md5": "4d34cde72be65dd118b92cbd8d16cd83"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_04_Session_02.h5",
+        "verified_at_unix": 1791285293.105261
+      },
+      {
+        "path": "sourcedata/repo/data_nix/Data_Subject_08_Session_05.h5",
+        "size": 575211229,
+        "checksums": {
+          "sha256": "a5f0dde5ab76c6ebd4ab2d613d21c4a90f132c2b45def1a130406bbfbcb9e424",
+          "md5": "338df919afe8e856cb9e1e5081caf7f6"
+        },
+        "source_url": "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM/raw/master/data_nix/Data_Subject_08_Session_05.h5",
+        "verified_at_unix": 1791285297.4783304
+      }
+    ]
+  },
+  "crosswalk": [
+    {
+      "nix_file": "Data_Subject_01_Session_01.h5",
+      "nix_subject": 1,
+      "nix_session": 1,
+      "bids_subject": "sub-01",
+      "ds004752_session_match": 1,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          50
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_01_Session_02.h5",
+      "nix_subject": 1,
+      "nix_session": 2,
+      "bids_subject": "sub-01",
+      "ds004752_session_match": 2,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          50
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_01_Session_03.h5",
+      "nix_subject": 1,
+      "nix_session": 3,
+      "bids_subject": "sub-01",
+      "ds004752_session_match": 3,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          50
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_01_Session_04.h5",
+      "nix_subject": 1,
+      "nix_session": 4,
+      "bids_subject": "sub-01",
+      "ds004752_session_match": 4,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          50
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_02_Session_01.h5",
+      "nix_subject": 2,
+      "nix_session": 1,
+      "bids_subject": "sub-02",
+      "ds004752_session_match": 1,
+      "nix_trials": 49,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          49
+        ],
+        [
+          2,
+          47,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          48,
+          0
+        ],
+        [
+          5,
+          46,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_02_Session_02.h5",
+      "nix_subject": 2,
+      "nix_session": 2,
+      "bids_subject": "sub-02",
+      "ds004752_session_match": 2,
+      "nix_trials": 47,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          47,
+          47
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          48,
+          0
+        ],
+        [
+          5,
+          46,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_02_Session_03.h5",
+      "nix_subject": 2,
+      "nix_session": 3,
+      "bids_subject": "sub-02",
+      "ds004752_session_match": 3,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          47,
+          0
+        ],
+        [
+          3,
+          50,
+          50
+        ],
+        [
+          4,
+          48,
+          0
+        ],
+        [
+          5,
+          46,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_02_Session_04.h5",
+      "nix_subject": 2,
+      "nix_session": 4,
+      "bids_subject": "sub-02",
+      "ds004752_session_match": 4,
+      "nix_trials": 48,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          47,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          48,
+          48
+        ],
+        [
+          5,
+          46,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_02_Session_05.h5",
+      "nix_subject": 2,
+      "nix_session": 5,
+      "bids_subject": "sub-02",
+      "ds004752_session_match": 5,
+      "nix_trials": 46,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          47,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          48,
+          0
+        ],
+        [
+          5,
+          46,
+          46
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_02_Session_06.h5",
+      "nix_subject": 2,
+      "nix_session": 6,
+      "bids_subject": "sub-02",
+      "ds004752_session_match": 6,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          47,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          48,
+          0
+        ],
+        [
+          5,
+          46,
+          0
+        ],
+        [
+          6,
+          50,
+          50
+        ],
+        [
+          7,
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_02_Session_07.h5",
+      "nix_subject": 2,
+      "nix_session": 7,
+      "bids_subject": "sub-02",
+      "ds004752_session_match": 7,
+      "nix_trials": 49,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          47,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          48,
+          0
+        ],
+        [
+          5,
+          46,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          49,
+          49
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_03_Session_01.h5",
+      "nix_subject": 3,
+      "nix_session": 1,
+      "bids_subject": "sub-03",
+      "ds004752_session_match": 1,
+      "nix_trials": 47,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          47,
+          47
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_03_Session_02.h5",
+      "nix_subject": 3,
+      "nix_session": 2,
+      "bids_subject": "sub-03",
+      "ds004752_session_match": 2,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          47,
+          0
+        ],
+        [
+          2,
+          50,
+          50
+        ],
+        [
+          3,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_03_Session_03.h5",
+      "nix_subject": 3,
+      "nix_session": 3,
+      "bids_subject": "sub-03",
+      "ds004752_session_match": 3,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          47,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          50
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_04_Session_01.h5",
+      "nix_subject": 4,
+      "nix_session": 1,
+      "bids_subject": "sub-04",
+      "ds004752_session_match": 1,
+      "nix_trials": 49,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          49
+        ],
+        [
+          2,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_04_Session_02.h5",
+      "nix_subject": 4,
+      "nix_session": 2,
+      "bids_subject": "sub-04",
+      "ds004752_session_match": 2,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          50,
+          50
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_05_Session_01.h5",
+      "nix_subject": 5,
+      "nix_session": 1,
+      "bids_subject": "sub-05",
+      "ds004752_session_match": 1,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          50
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_05_Session_02.h5",
+      "nix_subject": 5,
+      "nix_session": 2,
+      "bids_subject": "sub-05",
+      "ds004752_session_match": 2,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          50
+        ],
+        [
+          3,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_05_Session_03.h5",
+      "nix_subject": 5,
+      "nix_session": 3,
+      "bids_subject": "sub-05",
+      "ds004752_session_match": 3,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          50
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_06_Session_01.h5",
+      "nix_subject": 6,
+      "nix_session": 1,
+      "bids_subject": "sub-06",
+      "ds004752_session_match": 1,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          50
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          49,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ],
+        [
+          5,
+          50,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_06_Session_02.h5",
+      "nix_subject": 6,
+      "nix_session": 2,
+      "bids_subject": "sub-06",
+      "ds004752_session_match": 2,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          50
+        ],
+        [
+          3,
+          49,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ],
+        [
+          5,
+          50,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_06_Session_03.h5",
+      "nix_subject": 6,
+      "nix_session": 3,
+      "bids_subject": "sub-06",
+      "ds004752_session_match": 3,
+      "nix_trials": 49,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          49,
+          49
+        ],
+        [
+          4,
+          50,
+          0
+        ],
+        [
+          5,
+          50,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_06_Session_04.h5",
+      "nix_subject": 6,
+      "nix_session": 4,
+      "bids_subject": "sub-06",
+      "ds004752_session_match": 4,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          49,
+          0
+        ],
+        [
+          4,
+          50,
+          50
+        ],
+        [
+          5,
+          50,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_06_Session_05.h5",
+      "nix_subject": 6,
+      "nix_session": 5,
+      "bids_subject": "sub-06",
+      "ds004752_session_match": 5,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          49,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ],
+        [
+          5,
+          50,
+          50
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_06_Session_06.h5",
+      "nix_subject": 6,
+      "nix_session": 6,
+      "bids_subject": "sub-06",
+      "ds004752_session_match": 6,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          49,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ],
+        [
+          5,
+          50,
+          0
+        ],
+        [
+          6,
+          50,
+          50
+        ],
+        [
+          7,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_06_Session_07.h5",
+      "nix_subject": 6,
+      "nix_session": 7,
+      "bids_subject": "sub-06",
+      "ds004752_session_match": 7,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          49,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ],
+        [
+          5,
+          50,
+          0
+        ],
+        [
+          6,
+          50,
+          0
+        ],
+        [
+          7,
+          50,
+          50
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_07_Session_01.h5",
+      "nix_subject": 7,
+      "nix_session": 1,
+      "bids_subject": "sub-07",
+      "ds004752_session_match": 1,
+      "nix_trials": 49,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          49
+        ],
+        [
+          2,
+          48,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_07_Session_02.h5",
+      "nix_subject": 7,
+      "nix_session": 2,
+      "bids_subject": "sub-07",
+      "ds004752_session_match": 2,
+      "nix_trials": 48,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          48,
+          48
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_07_Session_03.h5",
+      "nix_subject": 7,
+      "nix_session": 3,
+      "bids_subject": "sub-07",
+      "ds004752_session_match": 3,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          48,
+          0
+        ],
+        [
+          3,
+          50,
+          50
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_07_Session_04.h5",
+      "nix_subject": 7,
+      "nix_session": 4,
+      "bids_subject": "sub-07",
+      "ds004752_session_match": 4,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          49,
+          0
+        ],
+        [
+          2,
+          48,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          50
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_08_Session_01.h5",
+      "nix_subject": 8,
+      "nix_session": 1,
+      "bids_subject": "sub-08",
+      "ds004752_session_match": 1,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          50
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_08_Session_02.h5",
+      "nix_subject": 8,
+      "nix_session": 2,
+      "bids_subject": "sub-08",
+      "ds004752_session_match": 2,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          50
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_08_Session_03.h5",
+      "nix_subject": 8,
+      "nix_session": 3,
+      "bids_subject": "sub-08",
+      "ds004752_session_match": 3,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          50
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_08_Session_04.h5",
+      "nix_subject": 8,
+      "nix_session": 4,
+      "bids_subject": "sub-08",
+      "ds004752_session_match": 4,
+      "nix_trials": 50,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          50
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_08_Session_05.h5",
+      "nix_subject": 8,
+      "nix_session": 5,
+      "bids_subject": "sub-08",
+      "ds004752_session_match": null,
+      "nix_trials": 49,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          50,
+          0
+        ],
+        [
+          2,
+          50,
+          0
+        ],
+        [
+          3,
+          50,
+          0
+        ],
+        [
+          4,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_09_Session_01.h5",
+      "nix_subject": 9,
+      "nix_session": 1,
+      "bids_subject": "sub-09",
+      "ds004752_session_match": 1,
+      "nix_trials": 48,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          48,
+          48
+        ],
+        [
+          2,
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "nix_file": "Data_Subject_09_Session_02.h5",
+      "nix_subject": 9,
+      "nix_session": 2,
+      "bids_subject": "sub-09",
+      "ds004752_session_match": 2,
+      "nix_trials": 49,
+      "candidates(ses,ntrials,identical_trials)": [
+        [
+          1,
+          48,
+          0
+        ],
+        [
+          2,
+          49,
+          49
+        ]
+      ]
+    }
+  ]
+}

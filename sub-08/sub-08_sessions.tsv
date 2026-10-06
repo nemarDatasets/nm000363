@@ -1,0 +1,6 @@
+session_id	nix_source_file	nix_source_sha256	n_trials	n_units	n_spikes	ds004752_session
+ses-01	Data_Subject_08_Session_01.h5	4d38576782c31995610904d35ae5fd55dc49e28f6e2b5da44e8ed8d54b68b21a	50	85	51443	ses-01
+ses-02	Data_Subject_08_Session_02.h5	9d0e6619bf7db351304e0f97eabd7ed2f3d53efde48e37659e4345256456a9c4	50	69	48261	ses-02
+ses-03	Data_Subject_08_Session_03.h5	2064259537fd9f4765fe820d30001a0e208f8024d1ad037642f13d1e61fbe6bc	50	69	59433	ses-03
+ses-04	Data_Subject_08_Session_04.h5	b83b43b7238287b7294802a8079f4d7564088049141108f70eb5d2e7d80b0e78	50	76	65056	ses-04
+ses-05	Data_Subject_08_Session_05.h5	a5f0dde5ab76c6ebd4ab2d613d21c4a90f132c2b45def1a130406bbfbcb9e424	49	87	92202	n/a

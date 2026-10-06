@@ -1,0 +1,20 @@
+{
+  "Description": "Mean and standard deviation of the extracellular spike waveform of each unit, copied from NIX arrays Spike_Waveform_Unit_<unit>_<microwire>.",
+  "unit_id": {
+    "Description": "Unit number; see _units.tsv."
+  },
+  "statistic": {
+    "Description": "Summary statistic across all spikes of the unit",
+    "Levels": {
+      "mean": "mean waveform",
+      "std": "standard deviation"
+    }
+  },
+  "s00": {
+    "Description": "First of 64 waveform samples (columns s00..s63). Sample k is at time -0.00059375 s + k * 3.125e-05 s relative to the detected spike peak (32 kHz microwire sampling).",
+    "Units": "uV"
+  },
+  "SamplingFrequency": 32000,
+  "WaveformOffset": -0.00059375,
+  "Units": "uV"
+}

@@ -1,0 +1,17 @@
+{
+  "Description": "Trial event tags from the NIX group 'Trial events single tags spike times' (or, for sessions without units, 'Trial events single tags iEEG'). Times are in the same trial-relative clock as spike_time.",
+  "trial": {
+    "Description": "Trial number (1-based)."
+  },
+  "onset": {
+    "Description": "Event onset relative to probe onset",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Event extent as stored in the NIX tag; n/a where the source tag carries no valid extent",
+    "Units": "s"
+  },
+  "nix_event": {
+    "Description": "Event name from the NIX tag with the '_Trial_<n>_<clock>' suffix removed, e.g. Fixation_ss<set size>_c<correct>_m<match>, Stimulus_ss<set size>_<letters>, Maintenance, Probe_m<match>_<letter>, Response_c<correct>."
+  }
+}

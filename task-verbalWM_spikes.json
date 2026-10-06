@@ -1,0 +1,13 @@
+{
+  "Description": "Spike times of each sorted unit, one row per spike, copied from the NIX arrays Spike_Times_Unit_<unit>_<microwire>_Trial_<trial>. Only the 8-s trial windows are available in the source (no inter-trial spikes).",
+  "unit_id": {
+    "Description": "Unit number; see _units.tsv."
+  },
+  "trial": {
+    "Description": "Trial number (1-based), equal to nTrial in the ds004752 events.tsv of the same subject/session and to 'trial' in _trials.tsv."
+  },
+  "spike_time": {
+    "Description": "Spike time relative to probe (retrieval) onset of the trial; the trial window is [-6, 2] s: fixation [-6,-5], stimulus/encoding [-5,-3], maintenance [-3,0], probe from 0. To place a spike on the ds004752 recording timeline use onset(ds004752 events row with nTrial == trial) + spike_time + 6.",
+    "Units": "s"
+  }
+}
