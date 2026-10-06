@@ -12,13 +12,13 @@
     "Thomas Grunwald",
     "Johannes Sarnthein"
   ],
-  "Acknowledgements": "Data recorded and spike-sorted by the authors (Klinik für Neurochirurgie, UniversitätsSpital Zürich; Schweizerisches Epilepsie-Zentrum, Zürich) and released in NIX format on G-Node GIN (doi:10.12751/g-node.d76994). Re-packaged as a BIDS derivative keyed to OpenNeuro ds004752 subject/session labels by Bruno Aristimunha for NEMAR; no values were changed.",
+  "Acknowledgements": "Data recorded and spike-sorted by the authors (Klinik für Neurochirurgie, UniversitätsSpital Zürich; Schweizerisches Epilepsie-Zentrum, Zürich) and released in NIX format on G-Node GIN (doi:10.12751/g-node.d76994). Re-packaged as a BIDS derivative keyed to OpenNeuro ds004752 subject/session labels by Bruno Aristimunha for NEMAR; no values were changed. Source authors' acknowledgement (Boran et al. 2020, Sci Data 7:30): \"We thank the physicians and the staff at Schweizerische Epilepsie-Klinik for their assistance and the subjects for their participation.\"",
   "HowToAcknowledge": "Please cite Boran E, Fedele T, Steiner A, Hilfiker P, Stieglitz L, Grunwald T, Sarnthein J (2020) Dataset of human medial temporal lobe neurons, scalp and intracranial EEG during a verbal working memory task. Scientific Data 7:30, doi:10.1038/s41597-020-0364-3; Boran E et al. (2019) Persistent hippocampal neural firing and hippocampal-cortical coupling predict verbal working memory load. Science Advances 5(3):eaav3687, doi:10.1126/sciadv.aav3687; and the original data release doi:10.12751/g-node.d76994.",
   "Funding": [
-    "Swiss National Science Foundation, SNSF 320030_176222",
-    "Mach-Gaensslen Stiftung",
-    "Stiftung für wissenschaftliche Forschung an der Universität Zürich",
-    "Forschungskredit der Universität Zürich"
+    "Swiss National Science Foundation, SNSF 320030_176222 (to J.S.)",
+    "Mach-Gaensslen Stiftung (to J.S.)",
+    "Stiftung für wissenschaftliche Forschung an der Universität Zürich (to J.S.)",
+    "Forschungskredit der Universität Zürich (to T.F.)"
   ],
   "EthicsApprovals": [
     "All subjects provided written informed consent for the study, which was approved by the institutional ethics review board (Kantonale Ethikkommission Zürich, PB-2016-02055). (Boran et al. 2020, Scientific Data 7:30, Methods: Subjects)"
@@ -29,7 +29,12 @@
     "https://doi.org/10.12751/g-node.d76994",
     "https://github.com/jniediek/combinato",
     "https://data.nemar.org/on004752/",
-    "https://doi.org/10.18112/openneuro.ds004752.v1.0.1"
+    "https://doi.org/10.18112/openneuro.ds004752.v1.0.1",
+    "https://gin.g-node.org/doi/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6972902/",
+    "https://doi.org/10.1371/journal.pone.0166598",
+    "https://doi.org/10.7554/eLife.78677",
+    "https://www.neurobs.com/ex_files/expt_view?id=266"
   ],
   "GeneratedBy": [
     {
@@ -72,6 +77,13 @@
     "verbal working memory",
     "Sternberg task",
     "epilepsy",
-    "iEEG"
+    "iEEG",
+    "spike sorting",
+    "Combinato",
+    "neuronal action potential",
+    "Neuralynx ATLAS",
+    "NIX",
+    "drug-resistant focal epilepsy",
+    "depth electrodes"
   ]
 }

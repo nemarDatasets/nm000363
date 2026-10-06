@@ -65,6 +65,15 @@ This is a modified Sternberg task. Each 8-s trial has four phases, timed relativ
 Each session had about 50 trials. The task was run in Presentation® (Neurobehavioral Systems,
 www.neurobs.com/ex_files/expt_view?id=266). The task is `verbalWM`, as in ds004752.
 
+Further task details from Boran et al. 2020 (Sci Data 7:30, Methods):
+- "The subjects were instructed to respond as rapidly as possible without making errors."
+- After the response the probe was turned off and the subjects received acoustic feedback on whether the response was
+  correct; "a trial with an incorrect response was always followed by a trial with a set size of four".
+- "The subjects performed 50 trials in one session, which lasted approximately 10 min"; several subjects performed
+  more than one session, up to seven, during the recording period of several days.
+- Presentation® version 18.0, run on a notebook computer in front of the subject; event TTL pulses were sent to the
+  ATLAS acquisition system via a parallel port.
+
 ## Recording and spike sorting
 These details are taken from Boran et al. 2020.
 - **Electrodes:** AdTech depth electrodes (1.3 mm diameter, 8 contacts of 1.6 mm, 5 mm spacing). Each electrode
@@ -79,6 +88,15 @@ These details are taken from Boran et al. 2020.
   non-uniform shape were removed, and highly similar clusters on the same microwire were merged.
 - **Anatomy:** electrode positions come from post-implantation CT and MRI, normalized to MNI space and labelled
   with the Brainnetome atlas, with manual labels where needed (`macro_label_manual_entry`).
+- **Implantation:** "Implantation sites were selected solely based on the clinical indication." All subjects "had
+  normal or corrected-to-normal vision and were right-handed as confirmed by neuropsychological testing".
+- **Scalp EEG (in ds004752, not here):** 10-20 system with minor adaptations, NicoletOne system at 256 Hz
+  (0.3-100 Hz passband, Natus).
+- **Sorting quality reported by the authors:** sorting yielded single-unit (SUA) and multi-unit activity (MUA);
+  percentage of inter-spike intervals below 3 ms 1.58 ± 4.18%; waveform peak signal-to-noise ratio 3.28 ± 1.56.
+- **Spike-sorting method reference:** Niediek J, Bostrom J, Elger CE, Mormann F (2016) Reliable Analysis of
+  Single-Unit Recordings from the Human Brain under Noisy Conditions: Tracking Neurons over Hours. PLoS One
+  11:e0166598, doi:10.1371/journal.pone.0166598.
 
 ## Files
 Each `sub-XX/ses-YY/ieeg/` folder holds the following files, all named `sub-XX_ses-YY_task-verbalWM_<kind>.tsv`.
@@ -94,6 +112,28 @@ Their column definitions are in the top-level `task-verbalWM_<kind>.json` sideca
 
 **Aligning to ds004752.** To place spikes on the ds004752 iEEG/EEG timeline (EDF), take the onset of the
 ds004752 `events.tsv` row whose `nTrial` equals `trial` and add `spike_time` + 6 s.
+
+## How to load
+```python
+import pandas as pd
+d = "sub-01/ses-01/ieeg/sub-01_ses-01_task-verbalWM_"
+units = pd.read_csv(d + "units.tsv", sep="\t")
+spikes = pd.read_csv(d + "spikes.tsv", sep="\t")      # unit_id, trial, spike_time (s from probe onset)
+trials = pd.read_csv(d + "trials.tsv", sep="\t")
+# spikes of unit 1 in correct set-size-8 trials
+ok = trials.query("correct == 1 and set_size == 8").trial
+st = spikes[(spikes.unit_id == 1) & spikes.trial.isin(ok)]
+```
+The matching iEEG/EEG time series are in on004752/ds004752 (same `sub-`/`ses-` labels; `trial` == `nTrial`).
+
+## Known caveats
+- Units are not labelled as single- or multi-unit in the source; the paper reports both SUA and MUA.
+- Spike times exist only inside the 8-s trial windows ([-6, 2] s around probe onset); inter-trial spikes are not in
+  the source.
+- Unit numbers are defined per session file; the same `unit_id` in two sessions does not imply the same neuron.
+- Seven sessions have no units (listed under Subjects and sessions); `sub-08/ses-05` has no EEG/iEEG in ds004752.
+- `response` holds raw button codes (values 1, 2, 51, 52 occur); the source does not document their mapping.
+  Use `match` and `correct` for the response outcome.
 
 **Validator.** Microelectrode spike data have no BIDS suffix yet, so these files are listed in `.bidsignore`. The
 BIDS validator therefore checks the dataset-level files, `participants.tsv` and `sessions.tsv`.
@@ -124,3 +164,9 @@ doi:10.18112/openneuro.ds004752.v1.0.1.
 ## Ethics
 All subjects gave written informed consent. The study was approved by the Kantonale Ethikkommission Zürich
 (PB-2016-02055) (Boran et al. 2020).
+
+## Funding
+Boran et al. 2020, Acknowledgements: "We acknowledge grants awarded by the Swiss National Science Foundation (SNSF
+320030_176222 to J.S.), Mach-Gaensslen Stiftung (to J.S.), Stiftung für wissenschaftliche Forschung an der
+Universität Zürich (to J.S.) and by Forschungskredit der Universität Zürich (to T.F.)." The same funders are listed in
+the GIN DataCite record of doi:10.12751/g-node.d76994.
