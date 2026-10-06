@@ -28,5 +28,8 @@
   },
   "soz_electrodes": {
     "Description": "Depth electrodes in the seizure onset zone (NIX 'Electrodes in seizure onset zone (SOZ)')."
+  },
+  "n_sessions": {
+    "Description": "Column \"Number of sessions\", Boran et al. 2020 Sci Data 7:30 doi:10.1038/s41597-020-0364-3 Table 1 \"Subject characteristics\" (https://www.nature.com/articles/s41597-020-0364-3/tables/2); equals the ses-* folders of the subject here (checked). All other columns also equal that table (checked 9/9)."
   }
 }
