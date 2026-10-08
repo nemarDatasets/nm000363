@@ -34,5 +34,11 @@
   },
   "nix_waveform_array": {
     "Description": "Name of the NIX data array holding the waveform (provenance)."
+  },
+  "macro_contact_atlas_label_AAL3v1": {
+    "Description": "AAL3v1 atlas label at the MNI coordinate of this unit's macro contact (macro_contact_mni_x/y/z), looked up by the ieeg-atlas project (coord_regions.py: label of the voxel, else nearest labelled voxel within 8 mm, prefixed 'nearest<=8mm:'). Derived label, not given by the authors; the coordinates are taken as MNI152. The authors' own label is in anatomical_location."
+  },
+  "macro_contact_atlas_label_DesikanKilliany": {
+    "Description": "Desikan-Killiany (FreeSurfer aparc) label of the fsaverage pial vertex nearest to the macro contact's MNI coordinate, if that vertex is within 5 mm; n/a otherwise or on the medial wall ('unknown'), e.g. for hippocampal and amygdala contacts. MNI152 coordinates are used on the MNI305 fsaverage surface without a transform, so labels at gyral borders are approximate. Derived label, not given by the authors."
   }
 }

@@ -172,3 +172,7 @@ Boran et al. 2020, Acknowledgements: "We acknowledge grants awarded by the Swiss
 320030_176222 to J.S.), Mach-Gaensslen Stiftung (to J.S.), Stiftung für wissenschaftliche Forschung an der
 Universität Zürich (to J.S.) and by Forschungskredit der Universität Zürich (to T.F.)." The same funders are listed in
 the GIN DataCite record of doi:10.12751/g-node.d76994.
+
+## Atlas labels of the macro contacts (added 2026-10-08)
+
+Each `*_units.tsv` has two derived columns for the unit's macro contact: `macro_contact_atlas_label_AAL3v1` (AAL3v1 label at the contact's MNI coordinate, nearest labelled voxel within 8 mm) and `macro_contact_atlas_label_DesikanKilliany` (aparc label of the nearest fsaverage pial vertex within 5 mm; n/a for deep contacts). They are atlas lookups of the coordinates already in the file (ieeg-atlas project), not labels given by the authors; `anatomical_location` keeps the authors' label. Over the 46 macro contacts the AAL3v1 lookup falls in the same coarse structure as the authors' label for 37.
