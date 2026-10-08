@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000363-blue)](https://doi.org/10.82901/nemar.nm000363)
+
 # Human medial temporal lobe single units during verbal working memory: spike data aligned to OpenNeuro ds004752
 
 ## Companion to NEMAR on004752 (OpenNeuro ds004752): the single-unit data of the same 9 patients
