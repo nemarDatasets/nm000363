@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human medial temporal lobe single units during a verbal working memory task (Boran et al.): spike times and waveforms aligned to OpenNeuro ds004752",
-  "description": "This BIDS derivative dataset provides single-unit microwire recordings from the human medial temporal lobe (hippocampus, entorhinal cortex, amygdala) of nine patients with drug-resistant focal epilepsy performing a modified Sternberg verbal working memory task. It contains 1526 sorted units and over 1.5 million spike times, along with mean and standard deviation waveforms, electrode and anatomical mappings, and per-trial task properties. Subject, session and trial labels are aligned to OpenNeuro ds004752 / NEMAR on004752, which hosts the scalp and intracranial EEG of the same patients.",
-  "methods_description": "Recordings used AdTech depth electrodes with microwires, acquired with a Neuralynx ATLAS system (microwires sampled at 32 kHz). Spikes were detected and sorted with Combinato (wavelet features and superparamagnetic clustering), followed by visual curation and merging of similar clusters. Patients performed a modified Sternberg task with set sizes of 4, 6 or 8 letters, presented in Presentation software, with about 50 trials per session.",
+  "description": "This BIDS derivative dataset provides sorted single-unit (microwire) recordings from the human medial temporal lobe (hippocampus, entorhinal cortex, amygdala) of nine patients with drug-resistant focal epilepsy performing a modified Sternberg verbal working memory task. It contains 1526 units with spike times per trial, mean and standard deviation waveforms, electrode and anatomical mapping, and trial properties. Subject, session and trial labels are aligned to OpenNeuro ds004752 / NEMAR on004752, which hosts the scalp and intracranial EEG of the same patients.",
+  "methods_description": "Patients with depth electrodes (AdTech, nine microwires each) performed a Sternberg task with set sizes of 4, 6 or 8 consonants in Presentation. Microwires were recorded at 32 kHz with a Neuralynx ATLAS system. Spikes were detected and sorted with Combinato (wavelet features, superparamagnetic clustering), followed by visual curation and merging of similar clusters. Electrode positions were derived from post-implantation CT and MRI, normalized to MNI space and labelled with the Brainnetome atlas.",
   "license": "CC-BY-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -47,7 +47,10 @@
   },
   "keywords": [
     {
-      "term": "single-unit recording"
+      "term": "single units"
+    },
+    {
+      "term": "intracranial EEG"
     },
     {
       "term": "working memory"
@@ -58,9 +61,6 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
     },
     {
-      "term": "medial temporal lobe"
-    },
-    {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
@@ -69,7 +69,7 @@
       "term": "spike sorting"
     },
     {
-      "term": "intracranial EEG"
+      "term": "medial temporal lobe"
     }
   ],
   "related_identifiers": [
@@ -148,6 +148,9 @@
   "modalities": [
     "ieeg"
   ],
+  "sizes": [
+    "16.11 GB (38 files)"
+  ],
   "formats": [
     ".h5",
     ".json",
@@ -158,8 +161,5 @@
     ".tsv",
     ".yml"
   ],
-  "sizes": [
-    "16.11 GB (38 files)"
-  ],
-  "source_hash": "4380af07f1473f3a017ad69d99bb155a9e76c3d6b6ebf4ab847c965ca7e2ac86"
+  "source_hash": "d4df4bdcf560d691f633a7e57c2860a265e918a71fe355897cc3a1153abd3df3"
 }
