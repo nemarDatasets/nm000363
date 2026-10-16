@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Boran-2020a-dataset-10.1038/s41597-020-0364-3",
+  "title": "Human medial temporal lobe single units during a verbal working memory task (Boran et al.): spike times and waveforms aligned to OpenNeuro ds004752",
   "description": "This BIDS derivative contains single-unit (microwire) data from nine patients with drug-resistant focal epilepsy performing a modified Sternberg verbal working memory task. It provides 1526 sorted units from the hippocampus, entorhinal cortex and amygdala, with spike times per trial, mean and standard deviation waveforms, electrode and anatomical mapping, and trial properties. The data are re-keyed to the subject and session labels of OpenNeuro ds004752 so they can be combined with the scalp and intracranial EEG of the same patients.",
   "methods_description": "Neural activity was recorded from AdTech depth electrodes with protruding microwires using a Neuralynx ATLAS system (microwires sampled at 32 kHz). Spikes were detected and sorted with Combinato (wavelet features and superparamagnetic clustering), followed by visual curation and merging of similar clusters. Electrode positions were localized from post-implantation CT and MRI, normalized to MNI space, and labelled with the Brainnetome atlas. Patients performed a modified Sternberg task with set sizes of 4, 6 or 8 consonants.",
   "license": "CC-BY-SA-4.0",
@@ -161,5 +161,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "9ca1ee66e03e37f7fe25a4317e59abbf5d682d5d2e07b9dcdfaa06e211976d47"
+  "source_hash": "f219456cd056e43e35f7671f359dc5102028515a19a28cfba1c1a07a216e2f3b"
 }
