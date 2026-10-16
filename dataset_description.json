@@ -1,5 +1,5 @@
 {
-  "Name": "Boran-2020a-dataset-10.1038/s41597-020-0364-3",
+  "Name": "Human medial temporal lobe single units during a verbal working memory task (Boran et al.): spike times and waveforms aligned to OpenNeuro ds004752",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-SA-4.0",
@@ -57,7 +57,7 @@
     {
       "URL": "https://doi.org/10.18112/openneuro.ds004752.v1.0.1",
       "DOI": "doi:10.18112/openneuro.ds004752.v1.0.1",
-      "Version": "1.0.1"
+      "Version": "1.0.2"
     },
     {
       "URL": "https://doi.org/10.12751/g-node.d76994",
