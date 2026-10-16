@@ -57,7 +57,7 @@
     {
       "URL": "https://doi.org/10.18112/openneuro.ds004752.v1.0.1",
       "DOI": "doi:10.18112/openneuro.ds004752.v1.0.1",
-      "Version": "1.0.2"
+      "Version": "1.0.1"
     },
     {
       "URL": "https://doi.org/10.12751/g-node.d76994",
@@ -87,5 +87,5 @@
     "depth electrodes"
   ],
   "DatasetDOI": "10.82901/nemar.nm000363",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
